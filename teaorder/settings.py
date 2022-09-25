@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'teaselling.urls'
+ROOT_URLCONF = 'teaorder.urls'
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'teaselling.wsgi.application'
+WSGI_APPLICATION = 'teaorder.wsgi.application'
 
 
 # Database
